@@ -1,0 +1,24 @@
+{
+  "name": "sparta-framework",
+  "version": "1.0.0",
+  "description": "Web application framework built on node js.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon --legacy-watch --ext js,.env --delay 1"
+  },
+  "bin": {
+    "sparta": "./core/console.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "knex": "^3.1.0",
+    "mongodb": "^6.5.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0"
+  }
+}
